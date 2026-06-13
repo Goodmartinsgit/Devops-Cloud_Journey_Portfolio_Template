@@ -1,11 +1,3 @@
-# Task 3: Create a DevOps User with Passwordless Sudo
-
-## Objective
-
-Create a new system user named `devops-user` with a secure default shell, add it to the administrative sudo group, and configure passwordless execution privileges for automated administration.
-
-<!-- LOG_OUTPUT -->
-
 
 ---
 
@@ -84,7 +76,7 @@ su - devops-user
 Password: 
 Hangup
 
----
+----
 
 
 ## 🔍 Verifying devops-user account
@@ -150,4 +142,7 @@ sudo -u devops-user id
 ```text
 uid=1001(devops-user) gid=1001(devops-user) groups=1001(devops-user),27(sudo)
 ```
+
+===================================================================================
+===================================================================================
 
