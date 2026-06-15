@@ -91,16 +91,39 @@ Get:2 http://security.ubuntu.com/ubuntu noble-security/main amd64 nginx amd64 1.
 Preconfiguring packages ...
 Fetched 568 kB in 2s (375 kB/s)
 Selecting previously unselected package nginx-common.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 40812 files and directories currently installed.)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 40812 files and directories currently installed.)
 Preparing to unpack .../nginx-common_1.24.0-2ubuntu7.12_all.deb ...
 Unpacking nginx-common (1.24.0-2ubuntu7.12) ...
 Selecting previously unselected package nginx.
 Preparing to unpack .../nginx_1.24.0-2ubuntu7.12_amd64.deb ...
 Unpacking nginx (1.24.0-2ubuntu7.12) ...
 Setting up nginx-common (1.24.0-2ubuntu7.12) ...
-Created symlink /etc/systemd/system/multi-user.target.wants/nginx.service → /usr/lib/systemd/system/nginx.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/nginx.service → /usr/lib/systemd/system/nginx.service.
+
 Setting up nginx (1.24.0-2ubuntu7.12) ...
- * Upgrading binary nginx       [80G [74G[ OK ]
+ * Upgrading binary nginx       [80G 
+[74G[ OK ]
 Processing triggers for man-db (2.12.0-4build2) ...
 ```
 
@@ -333,7 +356,10 @@ curl http://localhost
 ```text
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   615  100   615    0     0    634      0 --:--:-- --:--:-- --:--:--   634
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   615  100   615    0     0    634      0 --:--:-- --:--:-- --:--:--   634
 <!DOCTYPE html>
 <html>
 <head>
