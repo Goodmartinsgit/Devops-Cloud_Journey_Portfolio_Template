@@ -24,15 +24,24 @@ This subdirectory contains my solutions, script files, and verification logs for
 
 ---
 
+## 📚 Key Topics Studied
+* **System Profiling**: Gathering OS details, kernel versions, memory resources, and partition layouts.
+* **Filesystem & User Management**: Navigating standard directories, setting secure file permissions, and configuring passwordless sudo.
+* **Service Administration**: Managing systemd services, parsing logs with journalctl, and validating service ports.
+* **Bash Customization & Scripting**: Writing cron scripts, automating log rotation, and customizing the PS1 prompt with Git branch status.
+
+---
+
 ## 🚀 How to Run These Tasks
 
-All these tasks were executed on an **Ubuntu 24.04 LTS** server inside a WSL2 environment.
+All these tasks will be executed on an **Ubuntu LTS** server inside a WSL2 or VM environment.
 
-1.  **Helper Script**: To log commands run during the verification steps, run the helper utility:
+1.  **Helper Script**: To log commands run during the verification steps, you can run the helper utility:
     ```bash
     ../../utils/log-task.sh "uptime" "Checking uptime for verification" "./tasks/task-01-explore-system/verification.log"
     ```
-2.  **Validation**: Read the individual `README.md` files in each task folder to understand the requirements, configuration changes made, and scripts written.
+2.  **Validation**: Read the individual `README.md` files in each task folder to understand the requirements and objectives.
 
 ---
 [⬅️ Back to Foundations Module](../README.md)
+
